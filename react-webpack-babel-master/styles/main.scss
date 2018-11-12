@@ -1,0 +1,37 @@
+body {
+  font-weight: 300;
+  background: $color_fondo;
+  margin: 0;
+  .boxContent{
+    display: flex;
+    .fichaPersonal{
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 290px;
+      padding: 24px 16px;
+      background: $color_fondoFicha;
+      margin-right: 12px;
+      padding: 12px 0;
+    }
+    .portfolioContent{
+      padding: 2% 5%;
+      background: $color_blanco;
+      margin-left: 290px;
+    }
+  }
+
+  @media(max-width: 768px){
+    flex-direction: column;
+    .boxContent{
+      .fichaPersonal{
+        width: 100%;
+      }
+      .portfolioContent{
+        width: 100%;
+      }
+    }
+  }
+}

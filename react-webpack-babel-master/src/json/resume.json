@@ -1,0 +1,55 @@
+{
+	"fichaPersonal": {
+		"name": "Juan Jesús Calvente Calvente",
+		"position": "Front-End Developer",
+		"image": "../../images/personalPhoto.jpg",
+		"summary": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript."
+	},
+	"dataPortfolioContent": {
+		"aboutMe":{
+			"description": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Front End Lead for a small React team and have been developing with React and Redux for the past 2 years.",
+			"title": "Sobre mi"
+		},
+		"experience":[
+			{
+				"companyName": "VASS",
+				"rolTitle": "Web Developer",
+				"rolDescription": "Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.",
+				"logo": "logo vass",
+				"description": "Web Developer",
+				"date":"15/10/2015 - 15/10/2015",
+				"tools": ["react.js", "less", "saas"]
+			},
+			{
+				"companyName": "FREELANCE",
+				"rolTitle": "Web Developer",
+				"rolDescription": "Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.",
+				"logo": "logo FREELANCE",
+				"description": "Web Developer",
+				"date":"15/10/2015 - 15/10/2015",
+				"tools": ["react.js", "less", "saas"]
+			},
+			{
+				"companyName": "YASKA",
+				"rolTitle": "Web Developer",
+				"rolDescription": "Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.",
+				"logo": "logo yaska",
+				"description": "Junio Web Developer",
+				"date":"15/10/2015 - 15/10/2015",
+				"tools": ["react.js", "less", "saas"]
+			},
+			{
+				"companyName": "MARPOL",
+				"rolTitle": "Web Developer",
+				"rolDescription": "Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.Esto es una descripción muy larga de las cosas que no he hecho pero digo que he hecho porque este puto mundo funciona así y como lo hagas lo mismo juegas en clara desventaja y terminas hasta los cojones.",
+				"logo": "logo MARPOL",
+				"description": "Junio Web Developer",
+				"date":"15/10/2015 - 15/10/2015",
+				"tools": ["react.js", "less", "saas"]
+			}
+		]
+	}
+}
+
+
+

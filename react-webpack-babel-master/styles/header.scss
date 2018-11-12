@@ -1,0 +1,31 @@
+header{
+   display: flex;
+   flex-direction: column;
+	z-index: 1;
+  .border{
+     background: -webkit-linear-gradient(left,rgba(79, 33, 84, 0.13) 0,#E4E4E4 20%,#E4E4E4 80%,rgba(79, 33, 84, 0.13) 99%);
+     height: 2px;
+  }
+	.headerLanguage{
+	   font-size: 12px;
+	   font-family: 'Merriweather', serif;
+	   margin-top: 10px;
+	   text-align: right;
+	   color: #4f2154;
+	   margin-right: 15px;
+	}
+	.headerTitle{
+	   text-align: center;
+		 .headerName h1{
+		    font-size: 45px;
+		    font-family: 'Merriweather', serif;
+		    font-weight: 400;
+		    color: #4f2154;
+		 }
+		 .headerCareer h2{
+		    font-family: 'Merriweather', serif;
+		    font-weight: 400;
+		    color: #4f2154;
+		 }
+	}
+}

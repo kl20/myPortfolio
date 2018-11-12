@@ -1,0 +1,27 @@
+ul.listJobs{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	.boxCard{
+		padding: 32px;
+		margin-bottom: 16px;
+		background: $colorCards;
+		border-radius: 1%;
+		.tagList{
+			display: flex;
+			flex-direction: row;
+			padding-left: 0px;
+
+			li{
+				display: flex;
+				flex-direction: row;
+				margin-right: 8px;
+				padding: 2px 8px;
+				background: $color_fontBlue;
+				list-style: none;
+				border-radius: 10%;
+				width: max-content;
+			}
+		}
+	}
+}

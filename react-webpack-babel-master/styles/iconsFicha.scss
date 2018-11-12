@@ -1,0 +1,11 @@
+.containerIconsFicha{
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  .icon{
+    img{
+      width: 20px;
+      margin: 0 12px;
+    }
+  }
+}

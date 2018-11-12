@@ -1,0 +1,101 @@
+
+.containerPersonalPhoto{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   height: 300px;
+   .boxPhoto{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 3;
+     .personalPhoto{
+     width: 150px;
+     height: 150px;
+     border-radius: 150px;
+     -webkit-border-radius: 150px;
+     -moz-border-radius: 150px;
+     object-fit: cover;
+     position: absolute;
+     top: 0px;
+     }
+   }
+   .hideCircle{
+		height: 240px;
+		position: absolute;
+		width: 242px;
+		background: $color_fondoFicha;
+		top: -100px;
+		z-index: 2;
+   }
+    .circlePhoto{
+    	border: 1px solid $color_fontBlue;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+	.mainMenu{
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		margin-bottom: 44px;
+		.init{
+			position: absolute;
+			bottom: 15px;
+			left: -100px;
+			img{
+				margin: 7px;
+			}
+		}
+		.experience{
+			left: -18px;
+			top: -18px;
+			position: absolute;
+			img{
+				margin: 7px;
+			}
+		}
+		.aboutMe{
+			position: absolute;
+			bottom: 15px;
+			right: -100px;
+			img{
+				margin: 7px;
+			}
+		}
+		.circleMenu{
+			background: $color_fontBlue;
+			width: 35px;
+			height: 35px;
+			border-radius: 50%;
+			z-index: 4;
+		}
+	}
+
+   .personalDescription{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      h1{
+        font-size: 16px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-family: 'Raleway';
+        color: $color_fontBlue;
+      }
+      h2{
+         font-family: 'Merriweather', serif;
+         font-weight: 400;
+         color: $color_fontMediumGray;
+         font-size: 17px;
+         text-align: center;
+
+      }
+   }
+}

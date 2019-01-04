@@ -10,6 +10,7 @@ class AboutMe extends React.Component {
 				<div name="aboutMe" className="boxAboutMe">
 					<TitleSection title={dataAboutMe.title}/>
 					<p>{dataAboutMe.description}</p>
+					<p>test</p>
 				</div>
 			);
 		}

@@ -1,3 +1,11 @@
+Para correr el proyecto al una vez descargado de master.
+--------------------------------------------------------
+
+npm install node-sass
+npm install
+npm start
+
+
 # react-webpack-babel
 Simple React Webpack Babel Starter Kit
 
